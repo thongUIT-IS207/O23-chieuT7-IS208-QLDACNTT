@@ -1,0 +1,53 @@
+.menubody{
+    margin: 0;
+    padding: 0;
+    background: #fff7e6;
+    font-family: 'Segoe UI';
+    display:flow-root;
+    height: 800px;
+    color:#4d2600;
+}
+
+.menubody .wrapper{
+  height: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Segoe UI';
+  padding-top: 50px;
+}
+.menubody .maincontent {
+    height: auto;
+    width: 85%;
+    margin-top: 5px;
+    margin-left: 150px;
+    font-size: large;
+    background-color: #fffb;
+    border-radius: 10px;
+    overflow: auto;
+    overflow: overlay;
+}
+#table.first{
+    border-radius: 10px 0px 0px 10px;
+}
+#table.last{
+    border-radius: 0px 10px 10px 0px;
+}
+#table{
+    width: 98%;
+    margin-left: 13px;
+    margin-top: 50px;
+}
+td img {
+    width: 100px;
+    height: 100px;
+    margin-right: .5rem;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+#table thead th {
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+    cursor: pointer;
+    text-transform: capitalize;
+}

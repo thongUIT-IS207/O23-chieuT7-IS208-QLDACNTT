@@ -1,0 +1,119 @@
+.logo {
+    border-radius: 100px;
+    top: 0;
+}
+
+.bigger-icon {
+    font-size: 2rem;
+}
+
+.account {
+    text-decoration: none;
+    color: #4d2600;
+}
+
+.account:hover {
+    color: #4d2600;
+}
+
+.navbarr li:hover .dropdown-menu {
+    display: block;
+    max-height: 200px;
+    background-color:#845EC2;
+    top: 55px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #845EC2;
+}
+
+.dropdown-menu {
+    overflow: hidden;
+    max-height: 0;
+    /* -webkit-transition: all 0.5s ease-out; */
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 23px;
+}
+
+.navbarr {
+    font-family: Segoe UI;
+    color: #4d2600;
+}
+
+/* .navbarr li:hover {
+    background-color: palevioletred;
+    border-radius: 16px;
+}
+ */
+
+ .nav-link::after{
+    content:'';
+    height: 3px;
+    border-radius: 2px;
+    width: 100%;
+    background-color: #4d2600;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0;
+    transition: 0.8s;
+    pointer-events: none;
+ }
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link:hover::after{
+    opacity: 1;
+}
+
+.myheader {
+    box-sizing: border-box; 
+    padding: 0px;
+    font-family:'Segoe UI';
+}
+
+.nav-item {
+    position: relative;
+}
+.noti{
+    position: relative;
+    color: white;
+    text-decoration: none;
+   
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.noti .badge {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    padding: 5px 10px;
+    border-radius: 90%;
+    background-color: rgba(255, 238, 238, 0.7);
+    color: rgb(117, 117, 117);
+}
+
+/* .navbarne {
+    box-sizing: border-box;
+    background-color: bisque;
+    height: 66.5;
+    width: 1092;
+    padding: 0;
+} */
+.search-form {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-form .form-control {
+    margin-right: 10px;
+  }
+  

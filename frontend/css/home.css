@@ -1,0 +1,133 @@
+.homebody{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    font-family: 'Segoe UI';
+    color: #4d2600;
+    overflow:inherit;
+   
+}
+.homebody .main {
+    display: flex;
+    align-items: center;   
+    padding-top: 40px;
+}
+.homebody .mainname{
+    flex-grow: 1;
+    text-align:center;
+    font-size: 250%;
+    font-family:cursive;
+    color: #4d2600;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.4s ease-out, transform 0.3s ease-out;
+
+}
+.homebody .mainname.show{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.homebody .item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.homebody .col{
+    flex-direction: column;
+    align-items: center;
+    display: inline-flex;
+    padding: 20px;
+    font-size:large;
+ 
+}
+.homebody .namecake {
+    color: #4d2600;
+    text-decoration: none;
+    text-align: center;
+}
+.homebody .slick-arrow
+{
+    font-size: 24px;
+    color: #4d2600;
+}
+.slick-prev{
+    background-color: #fff7e6;
+    border: none;
+    padding: 10px 10px;
+    opacity: 0.7;
+    transition: opacity 0.5s ease;
+}
+
+.slick-next{
+    background-color: #fff7e6;
+    border: none;
+    padding: 10px 10px;
+    opacity: 0.7;
+}
+.homebody table{   
+    width: 100%;
+    border: 10px dashed rgb(234, 220, 155);
+    font-family: 'Segoe UI';
+   
+}
+.homebody td {
+    vertical-align: middle;  
+}
+.homebody .border {
+    width:23%;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    margin-top: 50px;
+}
+.homebody .text{ 
+    text-align: center;
+    width:50%;
+}
+.homebody .image{
+    text-align: right;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.4s ease-out, transform 0.3s ease-out;
+}
+
+.homebody .image.show {
+    opacity: 1;
+    transform: scale(1);
+}
+.homebody .intext{
+    font-size: 300%;
+    font-family:cursive;
+    color: #4d2600;
+}
+
+.homebody .image-container {
+    position: relative;
+    display: inline-block;
+    background-color: #A9F2F4;
+    border-radius: 30px;
+    border: solid 5px #8F8CC5;
+    width: 410px;
+    height: 300px;
+  }
+
+  .homebody .add-to-cart {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 238, 238, 0.7);
+    color: rgb(117, 117, 117);
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    border: none;
+     outline: none;  
+  }
+  
+ .homebody .image-container:hover .add-to-cart {
+    opacity: 10;
+  }
